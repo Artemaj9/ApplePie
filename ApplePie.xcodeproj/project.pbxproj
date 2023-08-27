@@ -13,6 +13,7 @@
 		AC0EE4B12A9AA2A400197D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0EE4AF2A9AA2A400197D9B /* Main.storyboard */; };
 		AC0EE4B32A9AA2A500197D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0EE4B22A9AA2A500197D9B /* Assets.xcassets */; };
 		AC0EE4B62A9AA2A500197D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0EE4B42A9AA2A500197D9B /* LaunchScreen.storyboard */; };
+		AC0EE4BE2A9AAE6500197D9B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EE4BD2A9AAE6500197D9B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC0EE4B22A9AA2A500197D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0EE4B52A9AA2A500197D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0EE4B72A9AA2A500197D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0EE4BD2A9AAE6500197D9B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AC0EE4A92A9AA2A400197D9B /* AppDelegate.swift */,
 				AC0EE4AB2A9AA2A400197D9B /* SceneDelegate.swift */,
 				AC0EE4AD2A9AA2A400197D9B /* ViewController.swift */,
+				AC0EE4BD2A9AAE6500197D9B /* Game.swift */,
 				AC0EE4AF2A9AA2A400197D9B /* Main.storyboard */,
 				AC0EE4B22A9AA2A500197D9B /* Assets.xcassets */,
 				AC0EE4B42A9AA2A500197D9B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				AC0EE4AE2A9AA2A400197D9B /* ViewController.swift in Sources */,
 				AC0EE4AA2A9AA2A400197D9B /* AppDelegate.swift in Sources */,
 				AC0EE4AC2A9AA2A400197D9B /* SceneDelegate.swift in Sources */,
+				AC0EE4BE2A9AAE6500197D9B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Artemaj.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Artemaj.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
